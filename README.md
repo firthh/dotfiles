@@ -1,6 +1,5 @@
 dotfiles
 ========
 
-source control for my dotfiles for use with babushka.
-
+Source control for my dotfiles for use with babushka.
 
