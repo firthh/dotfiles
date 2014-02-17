@@ -87,17 +87,17 @@
 ;; (set-face-background 'linum-relative-current-face nil)
 
 ;; APPEARENCE
-
+(load-theme 'solarized-dark t)
 ;; Set color-theme
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)     
-     (color-theme-sanityinc-tomorrow-night)
+;;(require 'color-theme)
+;;(eval-after-load "color-theme"
+  ;;'(progn
+    ;; (color-theme-initialize)     
+     ;;(color-theme-sanityinc-tomorrow-night)
      ;; (color-theme-sanityinc-tomorrow-bright)
      ;; (color-theme-sanityinc-tomorrow-blue)
      ;; (color-theme-sanityinc-tomorrow-eighties)
-     ))
+     ;;))
 
 (set-face-attribute 'default nil :height 120)
 (set-cursor-color 'white)
