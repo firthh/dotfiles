@@ -3,9 +3,9 @@
 ;;; Code:
 
 
-;;;### (autoloads (textmate-mode) "textmate" "textmate.el" (20924
-;;;;;;  13699))
-;;; Generated autoloads from textmate.el
+;;;### (autoloads (textmate-mode) "textmate" "../../../../.emacs.d/elpa/textmate-20110816.1446/textmate.el"
+;;;;;;  "72c46bcde3dd56d795e3cf7e9707b8df")
+;;; Generated autoloads from ../../../../.emacs.d/elpa/textmate-20110816.1446/textmate.el
 
 (defvar textmate-mode nil "\
 Non-nil if Textmate mode is enabled.
@@ -23,7 +23,9 @@ TextMate Emulation Minor Mode
 
 ;;;***
 
-;;;### (autoloads nil nil ("textmate-pkg.el") (20924 13699 564403))
+;;;### (autoloads nil nil ("../../../../.emacs.d/elpa/textmate-20110816.1446/textmate-pkg.el"
+;;;;;;  "../../../../.emacs.d/elpa/textmate-20110816.1446/textmate.el")
+;;;;;;  (21361 22613 885349 0))
 
 ;;;***
 
