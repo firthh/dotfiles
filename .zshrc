@@ -1,3 +1,7 @@
+function tree {
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+}
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -42,7 +46,7 @@ DEFAULT_USER="hugo"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-extras osx aliases colorize completion lein)
+plugins=(git git-extras osx aliases colorize completion lein python pylint pip)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -50,3 +54,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/local/heroku/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+
+source /usr/local/bin/virtualenvwrapper.sh
